@@ -7,7 +7,10 @@ public class Person {
     String firstName;
     String lastName;
 
-    public Person(){}
+    public Person(){
+        this.firstName = "";
+        this.lastName = "";
+    }
 
     public Person(String firstName, String lastName){
         this.firstName = firstName;
